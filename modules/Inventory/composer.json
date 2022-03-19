@@ -1,0 +1,28 @@
+{
+    "name": "limsocheat/inventory-module",
+    "description": "The inventory module for Sakal ERP.",
+    "type": "laravel-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Lim Socheat",
+            "email": "limsocheat111@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Inventory\\": ""
+        }
+    }
+}

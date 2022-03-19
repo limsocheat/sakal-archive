@@ -1,0 +1,28 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class $CLASS$ extends Model
+{
+    use HasFactory;
+
+    /**
+     * The attributes that should be fillable
+     * 
+     * @var array
+     */
+    protected $fillable = $FILLABLE$;
+    
+    /**
+     * Get factory for the model.
+     * 
+     * @return \Illuminate\Database\Eloquent\Factories\Factory
+     */
+    protected static function newFactory()
+    {
+        return \$MODULE_NAMESPACE$\$MODULE$\Database\Factories\$NAME$Factory::new();
+    }
+}

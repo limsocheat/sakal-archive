@@ -1,0 +1,28 @@
+{
+    "name": "limsocheat/product-module",
+    "description": "The product module for Sakal ERP.",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lim Socheat",
+            "email": "limsocheat111@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Product\\": ""
+        }
+    }
+}

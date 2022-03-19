@@ -1,0 +1,26 @@
+{
+    "name": "$VENDOR$/$LOWER_NAME$-module",
+    "type": "laravel-module",
+    "description": "The $LOWER_NAME$ module for sakal ERP.",
+    "keywords": ["framework", "laravel", "laravel modules", "sakal"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "$AUTHOR_NAME$",
+            "email": "$AUTHOR_EMAIL$"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\": ""
+        }
+    }
+}

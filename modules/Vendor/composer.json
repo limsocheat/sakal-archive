@@ -1,0 +1,26 @@
+{
+    "name": "limsocheat/vendor-module",
+    "type": "laravel-module",
+    "description": "The vendor module for sakal ERP.",
+    "keywords": ["framework", "laravel", "laravel modules", "sakal"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lim Socheat",
+            "email": "limsocheat111@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Vendor\\": ""
+        }
+    }
+}

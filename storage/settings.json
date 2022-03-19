@@ -1,0 +1,1 @@
+{"general":{"app_name":"Laravel"},"mail":{"mailer":"smtp","host":"mailhog","port":"1025","username":null,"password":null,"encryption":null,"from_address":null,"from_name":"\u179f\u1780\u179b"}}
